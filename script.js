@@ -14,6 +14,12 @@ async function getData(){
                 ${element["title"]}
             </h2>
         </div>
+                
+        <div>
+            <img src = ${element["urlToImage"]}>
+                
+        </div>
+
         <div>
             <p>
                 ${element["description"]}
@@ -33,6 +39,6 @@ async function getData(){
     
 };
 
-getData()
+// getData()
 
 sources = ["les-echos", "google-news-fr", "le-monde", ]
