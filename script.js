@@ -12,7 +12,7 @@ async function getData(){
 
         Elm.innerHTML += `
 
-    <div class = "card">
+    <div class = "card box-shadow">
         <div>
             <h2>
                 ${element["title"]}
@@ -43,6 +43,6 @@ async function getData(){
     
 };
 
-// getData()
+getData()
 
 sources = ["les-echos", "google-news-fr", "le-monde", ]
